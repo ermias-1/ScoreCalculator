@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ScoreCalculator.cs">
+    <Compile Include="G:\ScoreCalculator.cs">
       <SubType>Form</SubType>
+      <Link>ScoreCalculator.cs</Link>
     </Compile>
-    <Compile Include="ScoreCalculator.Designer.cs">
+    <Compile Include="G:\ScoreCalculator.Designer.cs">
       <DependentUpon>ScoreCalculator.cs</DependentUpon>
+      <Link>ScoreCalculator.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ScoreCalculator.resx">
+    <EmbeddedResource Include="G:\ScoreCalculator.resx">
       <DependentUpon>ScoreCalculator.cs</DependentUpon>
+      <Link>ScoreCalculator.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
